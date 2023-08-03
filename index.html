@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WANNPRES : Home</title>
+    <link rel="icon" href="./images/logo.ico">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Wannpres Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html
+                    ">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="conference.html">Conference</a></li>
+                <li><a href="contact.html
+                    ">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>West African Network of Natural Products Research Scientists (WANNPRES) <br> Nigerian Chapter </h1>
+        <p>Be a part of a growing community of Natural Products Scientists in West African Countries.</p>
+        <a href="./contact.html" class="hero-btn">Become a Member</a>
+    </div>
+</section>
+
+<!-- About Us-->
+<section class="about">
+  <h1>About Us</h1>
+  <p>About West African Network of Natural Products Research Scientists</p>
+  <div class="row">
+    <div class="about-text">
+      <p>As the name depicts WANNPRES is composed of natural products research scientists in 15 Western Africa Countries: Ghana, Togo, Benin Republic, Cote d’Ivoire, Mali, Senegal, Burkina Faso Cameroon Niger, Mauritania, Chad, Gambia, Liberia, Sierra Leone, and Nigeria.
+      The idea of bringing together Natural Products Research Scientists in the sub region of Western Africa was muted in Abuja, Nigeria in 2002.
+      For easy operation, WANNPRES is coordinated by a National coordinator in the various member Countries. The different nations are expected to organize national programmes and encourage networking among the various Natural Product research scientists in their countries. </p>
+    </div>
+    <div class="about-img">
+      <img src="./images/WP_20160304_13_51_51_Pro_LI.jpg" alt="Professor Agbedahunsi">
+      <h2>Prof. Agbedahunsi J. M.</h2>
+      <p>National Coordinator</p>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<!--Conference-->
+<section class="conference">
+  <h1>Upcoming Events</h1>
+  <p>WANNPRES Annual Conference</p>
+  <div class="row">
+    <img src="./images/photo1658875544.jpeg" alt="Wannpres Conference Flyer">
+  </div>
+  <a href="https://forms.gle/3jNf2JgPphk5HakG7" class="gen-btn">Register Here</a>
+</section>
+
+<!-- Our Mission -->
+<section class="mission">
+    <h1>Our Mission</h1>
+    <p>What we hope to achieve as a society of natural products scientists</p>
+
+    <div class="row">
+        <div class="mission-col">
+            <h3>01</h3>
+            <p>Identify and encourage research in the area of natural products; </p>
+        </div>
+        <div class="mission-col">
+            <h3>02</h3>
+            <p>Promote links among natural product researchers in the Western Africa sub-region; </p>
+        </div>
+        <div class="mission-col">
+            <h3>03</h3>
+            <p>Foster and maintain links with natural products research scientists in other parts of the world; </p>
+        </div>
+        <div class="mission-col">
+            <h3>04</h3>
+            <p>Educate and encourage the public on the conservation and sustainable use of biodiversity. </p>
+        </div>
+        <div class="mission-col">
+            <h3>05</h3>
+            <p>Disseminate research information. </p>
+        </div>
+    </div>
+</section>
+
+<!--Conference Cta-->
+<section class="conf-cta">
+  <h1>WANNPRES Constitution</h1>
+  <a href="./WANNPRES CONSTITUTION NEW.doc" class="hero-btn">Download Now</a>
+</section>
+
+<!--Footer-->
+<footer>
+  <div class="footer">
+    <div class="row">
+      <a href="index.html"><img src="images/logo.png" alt="Wannpres logo"></a>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./conference.html">Conference</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="./contact.html">Support</a></li>
+        <li><a href="./contact">Donate</a></li>
+        <li><a href="./contact">Membership</a></li>
+        <li><a href="./WANNPRES CONSTITUTION NEW.doc">Constitution</a></li>
+      </ul>
+    </div>
+  </div>
+  <p>All rights reserved &copy;WANNPRES 2022</p>
+</footer>
+
+<!--Script for toggle menu-->
+<script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+</script>
+</body>
+</html>

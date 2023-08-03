@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WANNPRES : Conference</title>
+      <link rel="icon" href="./images/logo.ico">
+</head>
+<body>
+<section class="gen-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Wannpres Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html
+                    ">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="conference.html">Conference</a></li>
+                <li><a href="contact.html
+                    ">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h2>Home > Conference  </h2>
+    </div>
+</section>
+
+<!--Conference-->
+<section class="conference">
+  <h1>Upcoming Events</h1>
+  <p>WANNPRES Annual Conference</p>
+  <div class="row">
+    <img src="./images/photo1658875544.jpeg" alt="Wannpres Conference Flyer">
+  </div>
+  <a href="https://forms.gle/3jNf2JgPphk5HakG7" class="gen-btn">Register Here</a>
+</section>
+
+<!-- Our Wannpres mission -->
+<section class="wa-mission">
+    <h1>Aims of WANNPRES Conference</h1>
+    <p>What we hope to achieve in the conference</p>
+
+    <div class="row">
+        <div class="mission-col">
+            <h3>01</h3>
+            <p>encouraging networking among Natural Product research Scientists in Nigeria and possibly among the scientists in the Western Africa sub region</p>
+        </div>
+        <div class="mission-col">
+            <h3>02</h3>
+            <p>nurture young natural product scientists, introduce them to funding agencies and laboratories where they could execute their researches.</p>
+        </div>
+    </div>
+</section>
+
+<section id='speakers'>
+  <h1>Speakers</h1>
+  <p>Professional speakers in the conference</p>
+  <div class="row">
+    <div class="person">
+<img src="./images/isa marte.jpg" alt="Professor Isa Marte Hussaini">
+      <h2>Prof. Isa Marte Hussaini (FNAPharm)</h2>
+      <p>Department of Pharmacology, University of Maiduguri and Chief of Satff of Borno State Governor</p>
+    </div>
+    <div class="person">
+  <img src="./images/anthony afolayan.jpg" alt="Prof. Anthony Afolayan">
+      <h2>Prof. Anthony Afolayan</h2>
+      <p>Department of Bothany, University of Forte Hare, South Africa</p>
+    </div>
+    <div class="person">
+  <img src="./images/Olukemi-Odukoya.jpg" alt="Prof. Olukemi Odukoya">
+      <h2>Prof. Olukemi Odukoya</h2>
+      <p>Department of Pharmacognosy, University of Lagos, NIgeria</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="person">
+  <img src="./images/Dr-Temiye-Edamisan.webp" alt="Prof. Edamisan Temiye">
+      <h2>Prof. Edamisan Temiye</h2>
+      <p>College of Medicine, University of Lagos, NIgeria</p>
+    </div>
+    <div class="person">
+      <img src="./images/Francisca-Nwaokorie.jpg" alt="Prof. Francisca Nwokorie">
+      <h2>Prof. Francisca Nwokorie</h2>
+      <p>Department of Medical Laboratory Science, College of Medicine, University of Lagos, NIgeria</p>
+    </div>
+    <div class="person">
+      <img src="./images/Bamidele Ogbe.jpg" alt="Prof. Bamidele Ogbe Solomon">
+      <h2>Prof. Bamidele Ogbe Solomon</h2>
+      <p>Former CEO/DG NABDA. Department of Chemical Engineering, Obafemi Awolowo University. Ile-Ife</p>
+    </div>
+  </div>
+</section>
+
+
+<!--Footer-->
+<footer>
+  <div class="footer">
+    <div class="row">
+      <a href="index.html"><img src="images/logo.png" alt="Wannpres Logo"></a>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./conference.html">Conference</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="./contact.html">Support</a></li>
+        <li><a href="./contact">Donate</a></li>
+        <li><a href="./contact">Membership</a></li>
+        <li><a href="./WANNPRES CONSTITUTION NEW.doc">Constitution</a></li>
+      </ul>
+    </div>
+  </div>
+    <p>All rights reserved &copy;WANNPRES 2022</p>
+</footer>
+
+<!--Script for toggle menu-->
+<script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+</script>
+</body>
+</html>
